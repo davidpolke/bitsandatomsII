@@ -1,0 +1,100 @@
+/** 
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial
+}
+
+/** 
+ * Card sizing and positioning.
+ * Don't mess with this!
+ */
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+}
+
+/** 
+ * Just some styling to make the card visible.
+ * Feel free to change this!
+ */
+
+.card {
+  background-color: rgb(48, 48, 48);
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.title_with_picture{
+  font-size: 16px;
+}
+
+.main-image {
+  width: 60%;
+  margin: 50px auto;
+  display: block;
+}
+
+.question{
+  margin-top: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left_boxes {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.left_box {
+  width: 100px;
+  height: 50px;
+  background-color: #a3a3a3;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px 5px 0px;
+}
+
+.see_text {
+  text-align: center;
+  color: #000000;
+}
+
+.continue_text {
+  text-align: center;
+  color: #000000;
+}
+
+.right_box {
+  width: 280px;
+  height: 110px;
+  background-color: #24ff62;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px 5px 5px;
+
+}
+
+.cancel_text {
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+}
